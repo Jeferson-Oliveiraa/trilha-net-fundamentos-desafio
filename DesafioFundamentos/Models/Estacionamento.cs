@@ -1,3 +1,5 @@
+using System.ComponentModel;
+
 namespace DesafioFundamentos.Models
 {
     public class Estacionamento
@@ -16,20 +18,15 @@ namespace DesafioFundamentos.Models
         {
             Console.WriteLine("Digite a placa do veículo para estacionar:");
             string placa = "";
-            // TODO: Pedir para o usuário digitar uma placa (ReadLine) e adicionar na lista "veiculos"
             placa = Console.ReadLine();
             veiculos.Add(placa);
-            // *IMPLEMENTE AQUI*
-            
-            
+             
         }
 
         public void RemoverVeiculo()
         {
-            
-            string placa = "";
             Console.WriteLine("Digite a placa do veículo para remover:");
-
+            string placa = "";
             // Pedir para o usuário digitar a placa e armazenar na variável placa
             placa = Console.ReadLine();
             // *IMPLEMENTE AQUI*
