@@ -4,7 +4,7 @@ namespace DesafioFundamentos.Models
     {
         private decimal precoInicial = 0;
         private decimal precoPorHora = 0;
-        private List<carro> veiculos = new List<carro>();
+        private List<string> veiculos = new List<string>();
 
         public Estacionamento(decimal precoInicial, decimal precoPorHora)
         {
@@ -15,7 +15,7 @@ namespace DesafioFundamentos.Models
         public void AdicionarVeiculo()
         {
             // TODO: Pedir para o usuário digitar uma placa (ReadLine) e adicionar na lista "veiculos"
-            string placa = Console.Readline();
+            string placa = Console.Readline("");
             veiculos.Add(placa);
             // *IMPLEMENTE AQUI*
             
@@ -50,7 +50,7 @@ namespace DesafioFundamentos.Models
 
                 // TODO: Remover a placa digitada da lista de veículos
                 // *IMPLEMENTE AQUI*
-                Foreach (string nome in veiculos)
+                Foreach (string nome in veiculos);
                 {
                     if(nome == placa)
                     {
