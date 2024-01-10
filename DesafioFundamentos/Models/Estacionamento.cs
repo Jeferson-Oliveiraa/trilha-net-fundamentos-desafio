@@ -40,24 +40,14 @@ namespace DesafioFundamentos.Models
                 Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
 
                 // TODO: Pedir para o usuário digitar a quantidade de horas que o veículo permaneceu estacionado,
-                // Pedir para o usuário digitar a placa e armazenar na variável placa
-                
-                string placa = Console.Readline();
                 // TODO: Realizar o seguinte cálculo: "precoInicial + precoPorHora * horas" para a variável valorTotal                
                 // *IMPLEMENTE AQUI*
-                
                 int horas = 0;
                 decimal valorTotal = 0; 
-                int valorTotal = precoInicial + precoPorHora * horas
 
                 // TODO: Remover a placa digitada da lista de veículos
                 // *IMPLEMENTE AQUI*
-                Foreach (string nome in veiculos);
-                {
-                    if(nome == placa)
-                    {
-                        veiculos.Remove(placa);
-                    }
+
                 Console.WriteLine($"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal}");
             }
             else
@@ -74,10 +64,6 @@ namespace DesafioFundamentos.Models
                 Console.WriteLine("Os veículos estacionados são:");
                 // TODO: Realizar um laço de repetição, exibindo os veículos estacionados
                 // *IMPLEMENTE AQUI*
-                Foreach (string item in veiculos)
-                {
-                    Console.WriteLine(item);    
-                }
             }
             else
             {
@@ -85,5 +71,4 @@ namespace DesafioFundamentos.Models
             }
         }
     }
-}
 }
