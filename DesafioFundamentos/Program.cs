@@ -11,7 +11,7 @@ Console.WriteLine("Seja bem vindo ao sistema de estacionamento!\n" +
 precoInicial = Convert.ToDecimal(Console.ReadLine());
 
 Console.WriteLine("Agora digite o preço por hora:");
-precoPorHora = Convert.ToDecimal(Console.ReadLine());
+
 
 // Instancia a classe Estacionamento, já com os valores obtidos anteriormente
 Estacionamento es = new Estacionamento(precoInicial, precoPorHora);
@@ -22,7 +22,7 @@ bool exibirMenu = true;
 // Realiza o loop do menu
 while (exibirMenu)
 {
-    //Console.Clear();
+    Console.Clear();
     Console.WriteLine("Digite a sua opção:");
     Console.WriteLine("1 - Cadastrar veículo");
     Console.WriteLine("2 - Remover veículo");
