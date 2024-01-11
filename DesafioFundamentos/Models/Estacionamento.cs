@@ -51,7 +51,7 @@ namespace DesafioFundamentos.Models
                     if(item == placa){
                         Console.WriteLine($"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal}");  
                         veiculos.Remove(placa);
-                        break;
+                        return;
                     }
                 }
             }
